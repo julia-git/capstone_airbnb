@@ -1,6 +1,6 @@
 # I Just Want To Be Popular...On Airbnb
 
-Example of how to add a picture --> ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.p)
+![alt text](/img/Baseline_Score.png)
 
 
 ## Overview
