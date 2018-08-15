@@ -1,7 +1,5 @@
 # I Just Want To Be Popular...On Airbnb
 
-![alt text](/img/Baseline_Score.png)
-
 
 ## Overview
 I Just Want To Be Popular is a data science project on predicting popularity of Airbnb listings in San Francisco in 2017. Will a listing be in the top 20 percent?
@@ -24,13 +22,9 @@ The data set used in this project consists of 117,107 total listings in 2017. Th
 
 ## Baseline
 
-Baseline 1: Guess that every listing is "not popular"
+![Baseline](/img/Baseline_Scores.png)
 
-Baseline 2: Randomly guess “popular” (20% of the time) and “not popular” (80% of the time)
-
-The scores above were determined from 1,000 trials. You can find the code for this in Baseline_Score.ipynb.
-
-Baseline 3: Guess that every listing that was popular this month will be popular next month
+The scores in baseline 2 were determined from randomly guessing with 1,000 trials. The code for this can be found in Baseline_Score.ipynb.
 
 ## Analysis:
 
