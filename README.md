@@ -34,15 +34,12 @@ The scores in baseline 2 were determined from randomly guessing with 1,000 trial
 ## Analysis:
 
 Model A: TEXT FEATURE<br />
-This model is specifically for the description of the listing.<br />
-After removal of the English stopwords and lemmatization of the text, I ran the text through the CountVectorizer and the TF-IDF. The best model for predicting popularity was Random Forest with the CountVectorizer, which gave me a F1 score of 0.86.<br />
-The code for Model A can be found in Model_A.ipynb.
+This model is specifically for the description of the listing.After removal of the English stopwords and lemmatization of the text, I ran the text through the CountVectorizer and the TF-IDF. The best model for predicting popularity was Random Forest with the CountVectorizer, which gave me a F1 score of 0.86. The code for Model A can be found in Model_A.ipynb.
 
 Model B: NON-TEXT FEATURES<br />
-The features I used includes 'host_length', 'amenities_count', 'review_scores_rating', 'host_response_rate', 'access_filled', 'house_rules_filled','space_filled','accommodates', 'extra_people', 'price_per_guest', 'price_per_bedroom','guests_included', 'host_about_filled', 'cancellation_policy', 'room_type', 'property_type_new', 'instant_bookable', 'calculated_host_listings_count', and  'minimum_nights'. A description of these features can be found in Appendix A below. <br />
+The features I used included 'host_length', 'amenities_count', 'review_scores_rating', 'host_response_rate', 'access_filled', 'house_rules_filled','space_filled','accommodates', 'extra_people', 'price_per_guest', 'price_per_bedroom','guests_included', 'host_about_filled', 'cancellation_policy', 'room_type', 'property_type_new', 'instant_bookable', 'calculated_host_listings_count', and  'minimum_nights'. A description of these features can be found in Appendix A below. <br />
 <br />
-XGBoost was my best model, with an F1 score of 0.88.<br />
-The code for Model B can be found in Model_B.ipynb.<br />
+XGBoost was my best model, with an F1 score of 0.88. The code for Model B can be found in Model_B.ipynb.<br />
 
 Final: <br />
 My final model is an ensemble model of both the text and non-text features. My goal is to ensemble the best models. I was able to produce an ensemble model with the second best model from Model A and the best model from Model B, and am currently in progress with preparing an ensemble model with the best model from Model A. 
