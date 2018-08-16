@@ -55,7 +55,7 @@ These are the top words in the description of the listing that the model used to
 
 These are the top five features identified by the model as the most important. 
 
-![ImportantFeatures](/img/Average_Permutation.png)
+![ImportantFeatures](/img/xgboost_import.png)
 
 Given the findings, here is a sample text that I put together for what would be a good description for a listing. The words in blue are the key words that the model used to identify as popular (see word cloud above).
 
