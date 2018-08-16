@@ -34,7 +34,7 @@ The scores in baseline 2 were determined from randomly guessing with 1,000 trial
 ## Analysis:
 
 Model A: TEXT FEATURE<br />
-NLP analysis of several text categories indicated that the description of the listing was the best predictor of the popularity of the listing. After removal of the English stopwords and lemmatization of the text, I ran the text through the CountVectorizer and the TF-IDF. Random Forest with the CountVectorizer gave me the highest F1 score of 0.86. The code for Model A can be found in Model_A.ipynb.
+NLP analysis of several text categories indicated that the description of the listing was the best predictor of the popularity of the listing.  After removal of the English stopwords and lemmatization of the text, I ran the text through the CountVectorizer and the TF-IDF. Random Forest with the CountVectorizer gave me the highest F1 score of 0.86. The code for Model A can be found in Model_A.ipynb. If you are interested in the code for the other text categories, see notebooks that start with NLP in the title.
 
 <br />
 
