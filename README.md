@@ -34,7 +34,7 @@ The scores in baseline 2 were determined from randomly guessing with 1,000 trial
 ## Analysis:
 
 Model A: TEXT FEATURE<br />
-This model is specifically for the description of the listing. After removal of the English stopwords and lemmatization of the text, I ran the text through the CountVectorizer and the TF-IDF. The best model for predicting popularity was Random Forest with the CountVectorizer, which gave me a F1 score of 0.86. The code for Model A can be found in Model_A.ipynb.
+NLP analysis of several text categories indicated that the description of the listing was the best predictor of the popularity of the listing. After removal of the English stopwords and lemmatization of the text, I ran the text through the CountVectorizer and the TF-IDF. Random Forest with the CountVectorizer gave me the highest F1 score of 0.86. The code for Model A can be found in Model_A.ipynb.
 
 <br />
 
@@ -46,9 +46,7 @@ XGBoost was my best model, with an F1 score of 0.88. The code for Model B can be
 <br />
 
 Final: <br />
-My final model is an ensemble model of both the text and non-text features. My goal is to ensemble the best models. I was able to produce an ensemble model with the second best model from Model A and the best model from Model B, and am currently in progress with preparing an ensemble model with the best model from Model A. 
-
-My current ensemble model predicted with a recall score of ~94%, precision score of ~86%, f1 score of ~90%. This model was able to better identify popularity of listings relative to the baseline recall score of ~88%. The code for the final model can be found in Ensemble.ipynb.
+My final model is an ensemble model of one model from the text feature and one model from the non-text features. The ensemble model with the best F1 score was the Random Forest from Model A and XGBoost from Model B. This ensemble model predicted with a recall score of ~94%, precision score of ~86%, f1 score of ~90%. This model was able to better identify popularity of listings relative to the baseline recall score of ~88%. The code for the final model can be found in Ensemble.ipynb.
 
 ## Findings:
 These are the top words in the description of the listing that the model used to identify popularity.
