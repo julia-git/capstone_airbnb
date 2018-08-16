@@ -5,9 +5,7 @@
 ## Overview
 I Just Want To Be Popular is a data science project on predicting popularity of Airbnb listings in San Francisco in 2017. Will a listing be in the top 20 percent?<br />
 
-
-The proxy I used for popularity is "reviews per month".
-
+To take a look at my capstone presentation, [click here.](Capstone_Presentation.pdf)
 
 ## Motivation
 Airbnb hosts want their listings to be popular to increase the number of bookings they receive and therefore increase profits. 
@@ -22,6 +20,8 @@ InsideAirbnb.com
 Date Scope:
 The data set used in this project consists of 117,107 total listings in 2017. There are approximately 8,000-16,000 listings per month. 
 
+Popularity Proxy:
+I used the number of "reviews per month".
 
 ## Baseline
 
